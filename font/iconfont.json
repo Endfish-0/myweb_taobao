@@ -1,0 +1,114 @@
+{
+  "id": "5127468",
+  "name": "淘宝",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "8043303",
+      "name": "斜杠",
+      "font_class": "xiegang",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "956601",
+      "name": "奶瓶",
+      "font_class": "naiping",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "13758648",
+      "name": "喷雾瓶子",
+      "font_class": "penwupingzi",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "19266857",
+      "name": "减号圆圈",
+      "font_class": "jianhaoyuanquan",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "1301391",
+      "name": "衣服",
+      "font_class": "yifu",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "1654622",
+      "name": "鞋子",
+      "font_class": "xiezi",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "5603056",
+      "name": "齿轮",
+      "font_class": "chilun",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5961393",
+      "name": "汽车",
+      "font_class": "qiche",
+      "unicode": "ec6d",
+      "unicode_decimal": 60525
+    },
+    {
+      "icon_id": "8288872",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e853",
+      "unicode_decimal": 59475
+    },
+    {
+      "icon_id": "9166438",
+      "name": "沙发",
+      "font_class": "shafa",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "14708198",
+      "name": "热度",
+      "font_class": "redu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "15714215",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "1305407",
+      "name": "下",
+      "font_class": "xia",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "19949531",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "11481178",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    }
+  ]
+}

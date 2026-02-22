@@ -1,0 +1,807 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.body {
+    width: 100%;
+    height: 1911px;
+    margin: 0;
+    padding: 0;
+    font: 12px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji,BlinkMacSystemFont,Helvetica Neue,Arial,PingFang SC,PingFang TC,PingFang HK,Microsoft Yahei,Microsoft JhengHei;
+}
+
+.header {
+    height: auto;
+    width: 100%;
+}
+
+.header-up {
+    margin: 0 auto;
+    padding-left: 48px;
+    padding-right: 48px;
+    width: 100%;
+    max-width: 1760px;
+    min-width: 1200px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "PingFang HK", "Microsoft Yahei", "Microsoft JhengHei";
+}
+
+.header-up .header-up-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-up .header-up-right {
+    display: flex;
+    justify-content: flex-end;
+    margin: -10px;
+    width: 669px;
+    height: 35px;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-up a {
+    color: #1f1f1f;
+}
+
+.header-up a:hover {
+    color: #ff5000;
+}
+
+.header-up .login {
+    color: #ff5000;
+}
+
+.header-up-left-mode {
+    cursor: pointer;
+}
+
+.header-up-left-mode:hover {
+    color: #ff5000;
+}
+
+.header-up-right div:hover {
+    color: #ff5000;
+}
+
+.header-up-right li div.shopping {
+    position: relative;
+    right: 10px;
+}
+
+.header-up-right li div.my-taobao {
+    position: relative;
+    right: 10px;
+}
+
+.header-up-right li div.buying {
+    position: relative;
+    right: 20px;
+}
+
+.header-up-right li div.taobao-head {
+    position: relative;
+    right: 35px;
+}
+
+.header-down {
+    width: 100%;
+}
+
+.background {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.background-png {
+    height: 60px;
+    width: 100%;
+    display: block;
+    position: relative;
+    overflow-y: visible;
+}
+
+.beijing {
+    left: 50%;
+    max-width: none;
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    top: 1px;
+    transform: translateX(-50%);
+    width: 3840px;
+    height: auto;
+    object-fit: cover;
+}
+
+.tb-nav-icon {
+    position: relative;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 100%;
+    height: 76px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content-icon .item {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+    width: 60px;
+}
+
+.content-icon .item img {
+    height: 28px;
+    width: 28px;
+    margin-bottom: 4px;
+    border: 0;
+}
+
+.content-icon .item p {
+    color: #171314;
+    font-size: 12px;
+    font-weight: 430;
+    line-height: 16px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.icon-text {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.icon-text .icon-png {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-text .icon-item {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 60px;
+}
+
+.icon-text .icon-item img {
+    background-color: #fff;
+    border-radius: 8px;
+    height: 48px;
+    width: 48px;
+}
+
+.text {
+    color: #ff1314;
+    font-family: FZLanTingHei-EB-GBK;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 6px;
+}
+.background-down{
+    max-width: 1760px;
+    min-width: 1200px;
+    margin: auto;
+    width: 100%;
+    display: block;
+    padding: 0 48px;
+    position: relative;
+    top: 1px;
+    z-index: 2;
+}
+.seach-area{
+    margin-bottom: -1px;
+    padding-bottom: 8px;
+    padding-top: 16px;
+    display: block;
+    overflow: hidden;
+}
+.seach-item{
+    width: 100%;
+    overflow: hidden;
+}
+.tb-logo{
+    float: left;
+    width: 240px;
+    height: auto;
+    margin: 0 8px;
+}
+.real-logo{
+    background-image: url("../assets/taobaocom.png");
+    background-position: 50%;
+    background-size: contain;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 72px;
+    width: 240px;
+    cursor: pointer;
+}
+.seach-field{
+    position: relative;
+    margin-left: 272px;
+    margin-right: 272px;
+}
+.tb-seach-item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tbs-box{
+    width: 100%;
+    height: 44px;
+    min-width: 330px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    border: 2px solid #ebebeb;
+    border-color: #ff5000;
+    display: block;
+}
+.tab{
+    width: fit-content;
+    border-radius: 100px;
+    margin-top: 2px;
+    position: absolute;
+    top: -1px;
+    z-index: 2;
+    height: 34px;
+    font-size: 14px;
+    background-color: #fff;
+}
+.tab-item{
+    color: #11192d;
+    cursor: default;
+    font-weight: 500;
+    pointer-events: none;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 16px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei;
+}
+.real-seach {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.divide {
+    position: relative;
+    z-index: 2;
+    top: 14px;
+    left: 71.4703px;
+    width: 1px;
+    height: 12px;
+    background: #dcdfe4;
+    display: block;
+}
+
+.real-button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 36px;
+    width: 72px;
+    background: #ff5000;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 3;
+    font-family: PingFangSC-Medium;
+}
+
+.seach-box {
+    width: 100%;
+    margin-top: 3px;
+    margin-right: 3px;
+    margin-left: 73.4703px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    display: block;
+}
+
+.input {
+    width: 100%;
+    height: 34px;
+    padding: 9px 0;
+    overflow-y: visible;
+    color: #11192d;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "PingFang HK", "Microsoft Yahei", "Microsoft JhengHei";
+    line-height: 20px;
+    text-indent: 12px;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+}
+.main{
+    width: 100%;
+    margin: auto;
+    max-width: 1760px;
+    min-width: 1200px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.main-up{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+.up-items{
+    margin-top: 2px;
+    border-radius: 18px 18px 0 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+}
+.up-tags-box{
+    height: 400px;
+    width: 256px;
+    border-radius: 12px;
+    background-color: #f7f7f7;
+}
+.tags-title{
+    padding: 8px 0 0 16px;
+    width: 100%;
+}
+.tags-title-text{
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 32px;
+    vertical-align: middle;
+}
+.tags-items{
+    width: 100%;
+    list-style: none;
+    display: block;
+}
+.tags-item{
+    border-radius: 4px;
+    color: #1f1f1f;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 8px;
+    padding-left: 10px;
+}
+.item-box{
+    font-size: 0;
+    height: 32px;
+    line-height: 32px;
+    width: 100%;
+    overflow: hidden;
+}
+.item-box a:hover{
+    color: #ff5000;
+}
+.tags-item-text.first{
+    color: #ff5000;
+    vertical-align: middle;
+    font-size: 14px;
+    cursor: pointer;
+}
+.tags-item-text{
+    color: #1f1f1f;
+
+    vertical-align: middle;
+    font-size: 14px;
+    cursor: pointer;
+}
+.up-logo-box{
+    height: 100%;
+    flex: 1;
+    min-width: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.up-logo-png{
+    border-radius: 12px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+.real-logo-png{
+    background-image: url("../assets/Gongxifacai.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.logo-logo{
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.logo-text {
+    color: #fff;
+    display: block;
+    margin-top: 80px;
+    margin-left: 24px;
+    overflow: hidden;
+    position: relative;
+    bottom: 24px;
+    width: 420px;
+}
+.first-text{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    overflow: hidden;
+    display: block;
+}
+.secend-text {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    overflow: hidden;
+    display: block;
+}
+.third-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-left: 4px;
+    overflow: hidden;
+    display: block;
+}
+.up-right-box{
+    height: 100%;
+    height: 400px;
+    width: 256px;
+}
+.logo-box{
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.logo-box a{
+    background-color: #f7f7f7;
+    background-position: 50%;
+    background-size: cover;
+    display: block;
+    height: 88px;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+.main-down{
+    width: 100%;
+}
+.down-head{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 17px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.head-area{
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.head-box{
+    display: inline-block;
+    font-size: 0;
+}
+.head-box-items{
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: row;
+    height: 48px;
+    width: 176px;
+    position: relative;
+    margin-right: 24px;
+}
+.head-logo{
+    background-color: #fff1eb;
+    border-radius: 100%;
+    height: 48px;
+    width: 48px;
+    margin-right: 8px;
+    object-fit: cover;
+}
+.head-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.head-text-first{
+    color: #ff5000;
+    font-weight: 500;
+    max-width: 116px;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 24px;
+}
+.head-text-secend{
+    color: #ff5000;
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 116px;
+    overflow: hidden;
+}
+.down-layer{
+    width: 100%;
+}
+.layer-row1 {
+    display: flex;
+    flex-direction: row;
+    /* 关键：启用flex布局 */
+    flex-wrap: wrap;
+    /* 允许换行 */
+    gap: 16px;
+    /* 项目间距 */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    /* 清除负边距 */
+    justify-content: flex-start;
+    /* 左对齐 */
+}
+.row-item-box {
+    display: flex;
+    /* 关键：改为flex布局 */
+    flex-direction: column;
+    /* 内部纵向排列 */
+    flex: 0 0 calc(16.666% - 16px);
+    /* 计算宽度（减去间距） */
+    max-width: calc(16.666% - 16px);
+    /* 最大宽度 */
+    box-sizing: border-box;
+    position: relative;
+}
+.row-item{
+    background-color: #fff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 16px;
+    position: relative;
+    width: 100%;
+}
+.item-link{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.item-logo{
+    background-position: 50%;
+    background-size: contain;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.item-text-box{
+    height: 48px;
+    margin-top: 8px;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+.item-text{
+    color: #1f1f1f;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.item-price-box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 24px;
+    margin-bottom: 8px;
+    margin-top: 26px;
+}
+.price-logo{
+    color: #ff5000;
+    font-family: AlibabaSans102v1TaoBao-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: -1px;
+    margin-right: 2px;
+}
+.price{
+    color: #ff5000;
+    font-family: AlibabaSans102v1TaoBao-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.footer{
+    width: 100%;
+}
+.footer-up{
+    width: 100%;
+    background-color: #fff;
+    max-width: 1760px;
+    min-width: 1200px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+}
+.footer-up-box{
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.footer-up-text-box{
+    padding: 0 16px;
+    line-height: 24px;
+}
+.footer-up-text-box a{
+    color: #1f1f1f;
+}
+.footer-up-text-box p{
+    margin: 0;
+}
+.footer-down{
+    width: 100%;
+    margin: 0 auto;
+    min-height: 170px;
+}
+.down-box{
+    min-height: 170px;
+    margin-top: 24px;
+    padding: 32px 0;
+    background-color: #fff;
+    font-size: 12px;
+    border-top: 1px solid #ebebeb;
+}
+.down-box div{
+    font-size: 12px;
+    color: #7a7a7a;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+.down-box strong {
+    font-size: 12px;
+    color: #1f1f1f;
+    font-weight: 500;
+}
+.down-box span{
+    font-size: 12px !important;
+    color: #7a7a7a;
+    line-height: 28px;
+    margin-right: 32px;
+    font-size: 0;
+}
+.down-box .p{
+    overflow: hidden;
+}
+.down-box-inner{
+    position: relative;
+    width: 1552px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1639px) and (min-width: 1400px) {
+    .tb-footer-inner {
+        width: 1296px;
+    }
+}
+.down-box .down-text-box{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-top: none;
+    margin-bottom: 4px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.down-box .down-text-box.secend{
+    border-bottom: 1px solid #ebebeb;
+}
+.down-box .down-text-box .p{
+    margin-bottom: 8px;
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 0;
+}
+.down-box .down-text-box a{
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.down-text-inner{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+.down-box .down-down-box{
+    margin-top: 8px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.down-box .down-down-box div {
+    font-size: 0;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.down-box .down-down-box a{
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+.down-box .down-down-box span {
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+.down-box .down-down-box img {
+    height: 24px;
+}
